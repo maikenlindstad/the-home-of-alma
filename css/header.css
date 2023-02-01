@@ -1,0 +1,25 @@
+#logoSection {
+  background-color: #fdf3f3;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#navSection {
+  background-color: #e2cdca;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#navSection ul {
+  padding-inline-start: 0;
+  display: flex;
+  list-style: none;
+}
+
+#navSection li {
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px;
+}
