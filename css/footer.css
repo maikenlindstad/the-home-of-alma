@@ -1,5 +1,10 @@
-footer {
+footer,
+footer ul,
+footer li {
   display: flex;
+}
+
+footer {
   flex-shrink: 0;
   align-items: center;
   flex-direction: column;
@@ -10,13 +15,11 @@ footer {
 footer ul {
   width: 90%;
   list-style: none;
-  display: flex;
   justify-content: space-around;
 }
 
 footer li {
   width: 33%;
   padding: 20px 0;
-  display: flex;
   justify-content: center;
 }
