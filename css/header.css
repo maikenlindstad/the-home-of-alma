@@ -90,7 +90,8 @@ label,
 
   #navSection ul,
   #navSection ul li:nth-child(2),
-  #navSection ul.dropdown li {
+  #navSection ul.dropdown li,
+  #navSection li:hover ul.dropdown li {
     padding: 10px;
   }
 
@@ -111,15 +112,17 @@ label,
   #navSection ul li:nth-child(2),
   #navSection ul.dropdown {
     align-items: center;
-    padding-bottom: 0;
+  }
+
+  #navSection li:hover ul.dropdown {
+    margin-top: 0px;
   }
 
   #navSection ul.dropdown {
-    border-top: 1px solid rgb(15, 15, 15);
-    border-bottom: 1px solid rgb(15, 15, 15);
+    border-top: 1px dotted rgba(15, 15, 15, 0.5);
   }
 
   #navSection li ul.dropdown {
-    background-color: rgb(210, 182, 182);
+    background-color: rgb(239, 230, 230);
   }
 }
