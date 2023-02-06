@@ -22,8 +22,13 @@ a {
   color: rgb(15, 15, 15);
 }
 
+nav a {
+  padding: 20px;
+}
+
 a:hover,
-.active {
+.active,
+.highlighted {
   text-decoration: underline;
 }
 

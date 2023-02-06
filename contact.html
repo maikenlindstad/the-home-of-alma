@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome  -->
+    <script
+      src="https://kit.fontawesome.com/b054aa0f4f.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/stylesheet.css" />
-    <title>The Home of Alma | Home</title>
+    <title>The Home of Alma | Contact</title>
   </head>
 
   <body>
@@ -14,6 +19,8 @@
         <div id="logoSection">
           <a href="index.html" id="logo"><h1>The Home of Alma</h1></a>
         </div>
+        <label for="hamburgerMenu"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="hamburgerMenu" />
         <nav id="navSection">
           <ul>
             <li>
@@ -21,9 +28,20 @@
             </li>
             <li>
               <a href="the-mansion.html"><p>The Mansion</p></a>
+              <ul class="dropdown">
+                <li>
+                  <a href="theMansion/rooms.html"><p>Rooms</p></a>
+                </li>
+                <li>
+                  <a href="theMansion/images.html"><p>Images</p></a>
+                </li>
+                <li>
+                  <a href="theMansion/things-to-do.html"><p>Things to do</p></a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="about.html"><p>About</p></a>
+              <a href="about.html"><p>About us</p></a>
             </li>
             <li>
               <a href="contact.html" class="active"><p>Contact</p></a>
@@ -36,21 +54,37 @@
     </div>
 
     <footer>
-      <p>
-        Case and story made up by developer
-        <a href="">Maiken Lindstad</a> 01/02-2023
-      </p>
-      <ul>
-        <li>
-          <a href=""><p>Project Github</p></a>
-        </li>
-        <li>
-          <a href=""><p>Developed by Maiken Lindstad</p></a>
-        </li>
-        <li>
-          <a href=""><p>Contact</p></a>
-        </li>
-      </ul>
+      <div>
+        <a href=""><p>"The Home of Alma" | Buy the book</p></a>
+        <p>
+          Copy, story and project made by
+          <a href="" class="highlighted">Maiken Lindstad</a> | 01/02-2023
+        </p>
+        <p>
+          All 3D have been made using
+          <a href="https://www.autodesk.no/" class="highlighted"
+            >Autodesk Maya</a
+          >
+        </p>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a
+              href="https://github.com/maikenlindstad/the-home-of-alma"
+              target="_blank"
+              ><p>Project Github</p></a
+            >
+          </li>
+          <li></li>
+          <li>
+            <a href=""><p>Developed by Maiken Lindstad</p></a>
+          </li>
+          <li>
+            <a href=""><p>Contact developer</p></a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
