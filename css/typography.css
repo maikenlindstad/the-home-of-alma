@@ -18,7 +18,12 @@ nav li p {
   font-size: 0.9rem;
 }
 
-a {
+i {
+  font-size: 1.8rem;
+}
+
+a,
+i {
   color: rgb(15, 15, 15);
 }
 
