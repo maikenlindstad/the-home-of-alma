@@ -43,6 +43,10 @@ a,
   text-decoration: none;
 }
 
+.slide a:hover {
+  text-decoration: none;
+}
+
 footer p {
   padding: 10px;
 }
