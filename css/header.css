@@ -7,6 +7,7 @@
 #navSection ul,
 #navSection li {
   justify-content: center;
+  z-index: 10;
 }
 
 #logoSection,
@@ -44,7 +45,7 @@ label,
 #navSection li ul.dropdown {
   background-color: #ffffff;
   position: absolute;
-  z-index: 0;
+  z-index: 10;
 }
 
 #navSection li:hover ul.dropdown {
