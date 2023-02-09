@@ -18,3 +18,8 @@ body {
 .wrapper {
   flex: 1 0 auto;
 }
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
